@@ -3,8 +3,9 @@
   <component name="DataSourceManagerImpl" format="xml" hash="1806171583">
     <data-source source="LOCAL" name="Rails pollutionRails: development" uuid="08e0513a-13e5-44d9-a4e9-481b29f3780d">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/iqn</jdbc-url>
+      <user-name>Dioud</user-name>
       <libraries />
     </data-source>
   </component>
