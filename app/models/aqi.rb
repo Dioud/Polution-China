@@ -4,7 +4,6 @@ class Aqi
     cities = %w(beijing tianjin shanghai hongkong xingtai kunming haerbin guangzhou nanjing)
     cities.each_with_index do |city, i|
       begin
-        p city
         doc = Nokogiri::HTML(RestClient.get("http://aqicn.org/city/#{city}/").to_str)
         res= doc.css('div.aqivalue')[0].content
       rescue
