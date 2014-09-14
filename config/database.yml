@@ -3,3 +3,11 @@ development:
   host: localhost
   username: Dioud
   database: iqn
+
+
+ production:
+   adapter: postgresql
+   host: localhost
+   username: root
+   password: hcjJfUtsQSQW1s4j
+   database: iqn
