@@ -1,5 +1,5 @@
 class InformationController < ApplicationController
-  caches_action :cities, expires_in: 45.minutes
+  # caches_action :cities, expires_in: 45.minutes
 
   def cities
     @cities = Aqi.all

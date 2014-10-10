@@ -42,3 +42,4 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'actionpack-action_caching'
+gem 'parallel'
